@@ -30,9 +30,11 @@ svg {
     display: block;
     width: 80vw; /* Make it responsive */
     height: auto;
-    max-height: 300px;
+    max-height: 600px;
     margin: 20px 0;
     border: 2px solid black; /* Add border if needed */
+    transform: scale(1); /* 1.5x zoom */
+    transform-origin: center;
 }
 
 svg path {
