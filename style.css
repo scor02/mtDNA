@@ -1,0 +1,115 @@
+/* ----- style.css ----- */
+
+/* Reset default margin/padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Layout */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center everything */
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Header Styling */
+header {
+    width: 100%;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+/* SVG Styling */
+svg {
+    display: block;
+    width: 80vw; /* Make it responsive */
+    height: auto;
+    max-height: 600px;
+    margin: 20px 0;
+    border: 2px solid black; /* Add border if needed */
+    transform: scale(1); /* 1.5x zoom */
+    transform-origin: center;
+}
+
+svg path {
+  fill: #000000; /* Couleur initiale */
+  stroke: #eee;
+  stroke-width: .25;
+}
+
+svg path:hover {
+  fill: #FF6347;
+  transition: 0.6s;
+  cursor: pointer;
+}
+
+svg path:active {
+  fill: #FF7F50;  /* Couleur de remplissage lors du touché (mobile et bureau) */
+}
+
+
+/* Button Styling */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: black;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Content Below SVG */
+
+.hero {
+    text-align: center;
+    padding: 20px;
+}
+
+.hero img {
+    width: 70%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+/* Style for the schedule */
+.schedule {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.schedule h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.schedule ul {
+    list-style-type: none; /* Removes bullets */
+    padding: 0;
+}
+
+.schedule li {
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+
+
+
+
