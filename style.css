@@ -28,11 +28,14 @@ header {
 /* SVG Styling */
 svg {
     display: block;
-    width: 80vw; /* Make it responsive */
+    width: 80vw;
     height: auto;
     max-height: 600px;
-    margin: 20px 0;
-    border: 2px solid black; /* Add border if needed */
+    margin: 20px auto; /* Keep some space above and below the SVG */
+    border: 2px solid black;
+    transform-origin: center center;
+    transition: transform 0.3s ease;
+    overflow: hidden; /* Avoid overflow from the border */
 }
 
 svg path {
