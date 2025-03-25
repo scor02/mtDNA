@@ -33,7 +33,7 @@ svg {
     max-height: 300px;
     margin: 20px 0;
     border: 2px solid black; /* Add border if needed */
-    transform: scale(1); /* 1.5x zoom */
+    transform: scale(1.5); /* 1.5x zoom */
     transform-origin: center;
 }
 
