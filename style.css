@@ -13,16 +13,17 @@ body {
     flex-direction: column;
     align-items: center; /* Center everything */
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    background-color: #F0F8FF;
 }
 
 /* Header Styling */
 header {
     width: 100%;
     text-align: center;
-    background-color: #333;
-    color: white;
+    background-color: #E1F5FF;
+    color: #E1F5FF;
     padding: 20px;
+    
 }
 
 /* SVG Styling */
@@ -59,7 +60,7 @@ svg path:active {
 button {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #007bff;
+    background-color: #008B8B;
     color: black;
     border: none;
     cursor: pointer;
@@ -68,7 +69,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #5F9EA0;
 }
 
 /* Content Below SVG */
